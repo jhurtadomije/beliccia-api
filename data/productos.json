@@ -1,0 +1,467 @@
+[
+  {
+    "id": 1,
+    "slug": "modelo-novia-01",
+    "nombre": "Modelo Novia 1",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido1.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "modelo-novia-02",
+    "nombre": "Modelo Novia 2",
+    "categoria": "novias",
+    "descripcion": "Diseño princesa con escote corazón.",
+    "tallas": [
+      "38",
+      "40",
+      "42"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido2.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "modelo-novia-03",
+    "nombre": "Modelo Novia 3",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "modelo-novia-04",
+    "nombre": "Modelo Novia 4",
+    "categoria": "novias",
+    "descripcion": "Diseño princesa con escote corazón.",
+    "tallas": [
+      "38",
+      "40",
+      "42"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido4.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "modelo-novia-05",
+    "nombre": "Modelo Novia 5",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido5.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "modelo-novia-06",
+    "nombre": "Modelo Novia 6",
+    "categoria": "novias",
+    "descripcion": "Diseño princesa con escote corazón.",
+    "tallas": [
+      "38",
+      "40",
+      "42"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido6.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "modelo-novia-07",
+    "nombre": "Modelo Novia 7",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido7.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "modelo-novia-08",
+    "nombre": "Modelo Novia 8",
+    "categoria": "novias",
+    "descripcion": "Diseño princesa con escote corazón.",
+    "tallas": [
+      "38",
+      "40",
+      "42"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido8.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "modelo-novia-09",
+    "nombre": "Modelo Novia 9",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido9.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "modelo-novia-10",
+    "nombre": "Modelo Novia 10",
+    "categoria": "novias",
+    "descripcion": "Diseño princesa con escote corazón.",
+    "tallas": [
+      "38",
+      "40",
+      "42"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido10.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "modelo-novia-11",
+    "nombre": "Modelo Novia 11",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido11.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "modelo-novia-12",
+    "nombre": "Modelo Novia 12",
+    "categoria": "novias",
+    "descripcion": "Diseño princesa con escote corazón.",
+    "tallas": [
+      "38",
+      "40",
+      "42"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido12.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "modelo-novia-13",
+    "nombre": "Modelo Novia 13",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido13.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "modelo-novia-14",
+    "nombre": "Modelo Novia 14",
+    "categoria": "novias",
+    "descripcion": "Diseño princesa con escote corazón.",
+    "tallas": [
+      "38",
+      "40",
+      "42"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido14.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "modelo-novia-15",
+    "nombre": "Modelo Novia 15",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido15.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "modelo-novia-16",
+    "nombre": "Modelo Novia 16",
+    "categoria": "novias",
+    "descripcion": "Diseño princesa con escote corazón.",
+    "tallas": [
+      "38",
+      "40",
+      "42"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido16.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "modelo-novia-17",
+    "nombre": "Modelo Novia 17",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido17.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "modelo-novia-18",
+    "nombre": "Modelo Novia 18",
+    "categoria": "novias",
+    "descripcion": "Diseño princesa con escote corazón.",
+    "tallas": [
+      "38",
+      "40",
+      "42"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido18.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "modelo-novia-19",
+    "nombre": "Modelo Novia 19",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido19.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "modelo-novia-20",
+    "nombre": "Modelo Novia 20",
+    "categoria": "novias",
+    "descripcion": "Diseño princesa con escote corazón.",
+    "tallas": [
+      "38",
+      "40",
+      "42"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido20.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "modelo-novia-21",
+    "nombre": "Modelo Novia 21",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido21.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "modelo-novia-22",
+    "nombre": "Modelo Novia 22",
+    "categoria": "novias",
+    "descripcion": "Diseño princesa con escote corazón.",
+    "tallas": [
+      "38",
+      "40",
+      "42"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido22.jpg"
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "modelo-novia-23",
+    "nombre": "Modelo Novia 23",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido23.jpg"
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "modelo-novia-24",
+    "nombre": "Modelo Novia 24",
+    "categoria": "novias",
+    "descripcion": "Diseño princesa con escote corazón.",
+    "tallas": [
+      "38",
+      "40",
+      "42"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido24.jpg"
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "modelo-novia-25",
+    "nombre": "Modelo Novia 25",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido25.jpg"
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "modelo-novia-26",
+    "nombre": "Modelo Novia 26",
+    "categoria": "novias",
+    "descripcion": "Diseño princesa con escote corazón.",
+    "tallas": [
+      "38",
+      "40",
+      "42"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido26.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "modelo-novia-27",
+    "nombre": "Modelo Novia 27",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido27.jpg"
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "modelo-novia-28",
+    "nombre": "Modelo Novia 28",
+    "categoria": "novias",
+    "descripcion": "Diseño princesa con escote corazón.",
+    "tallas": [
+      "38",
+      "40",
+      "42"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido28.jpg"
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "modelo-novia-29",
+    "nombre": "Modelo Novia 29",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido29.jpg"
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "modelo-novia-30",
+    "nombre": "Modelo Novia 30",
+    "categoria": "novias",
+    "descripcion": "Diseño princesa con escote corazón.",
+    "tallas": [
+      "38",
+      "40",
+      "42"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido30.jpg"
+    ]
+  },
+  {
+    "id": 31,
+    "slug": "modelo-novia-31",
+    "nombre": "Modelo Novia 31",
+    "categoria": "novias",
+    "descripcion": "Vestido elegante de corte sirena.",
+    "tallas": [
+      "36",
+      "38",
+      "40"
+    ],
+    "imagenes": [
+      "/imagenes/productos/novias/vestido31.jpg"
+    ]
+  }
+]
