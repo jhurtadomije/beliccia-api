@@ -13,9 +13,11 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'http://localhost:5500',
+    'https://beliccia-dresscode-plzd5qwzl-jose-ramons-projects-9506e846.vercel.app',
     'https://beliccia.es',
     'https://tienda.beliccia.es'
-  ]
+  ],
+  credentials: true
 }));
 
 // Parseo JSON (para futuros endpoints POST, si los tuvieras)
