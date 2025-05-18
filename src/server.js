@@ -19,6 +19,11 @@ app.use(cors({
   credentials: true
 }));
 
+app.use(cors({
+  origin: '*',
+  credentials: true
+}));
+
 // Parseo JSON (para futuros endpoints POST, si los tuvieras)
 app.use(express.json());
 
