@@ -12,9 +12,9 @@ const PORT = process.env.PORT || 3000;
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://beliccia-dresscode.vercel.app',                         // Production
-    'https://beliccia-dresscode-git-main-jose-ramons-projects-9506e846.vercel.app',  // Preview main
-    'https://beliccia-dresscode-k97jgv7rq-jose-ramons-projects-9506e846.vercel.app'   // Otro preview
+    'http://beliccia-dresscode-git-main-jose-ramons-projects-9506e846.vercel.app',
+    'http://beliccia-dresscode-5qo5eq9cg-jose-ramons-projects-9506e846.vercel.app',
+    'http://beliccia-dresscode.vercel.app',
   ],
   credentials: true
 }));
