@@ -4,12 +4,8 @@
     "slug": "modelo-novia-01",
     "nombre": "Modelo Novia 1",
     "categoria": "novias",
+    "estilo": "Corte Sirena",
     "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
     "imagenes": [
       "/imagenes/productos/novias/vestido1.jpg"
     ]
@@ -19,12 +15,9 @@
     "slug": "modelo-novia-02",
     "nombre": "Modelo Novia 2",
     "categoria": "novias",
+    "estilo": "Corte Princesa",
     "descripcion": "Diseño princesa con escote corazón.",
-    "tallas": [
-      "38",
-      "40",
-      "42"
-    ],
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido2.jpg"
     ]
@@ -34,12 +27,9 @@
     "slug": "modelo-novia-03",
     "nombre": "Modelo Novia 3",
     "categoria": "novias",
+    "estilo": "Corte Sirena",
     "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
+
     "imagenes": [
       "/imagenes/productos/novias/vestido3.jpg"
     ]
@@ -49,12 +39,9 @@
     "slug": "modelo-novia-04",
     "nombre": "Modelo Novia 4",
     "categoria": "novias",
+    "estilo": "Corte Princesa",
     "descripcion": "Diseño princesa con escote corazón.",
-    "tallas": [
-      "38",
-      "40",
-      "42"
-    ],
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido4.jpg"
     ]
@@ -64,12 +51,9 @@
     "slug": "modelo-novia-05",
     "nombre": "Modelo Novia 5",
     "categoria": "novias",
-    "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
+    "estilo": "Corte A",
+    "descripcion": "Vestido elegante de corte A.",
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido5.jpg"
     ]
@@ -79,12 +63,9 @@
     "slug": "modelo-novia-06",
     "nombre": "Modelo Novia 6",
     "categoria": "novias",
-    "descripcion": "Diseño princesa con escote corazón.",
-    "tallas": [
-      "38",
-      "40",
-      "42"
-    ],
+    "estilo": "Corte Recto",
+    "descripcion": "Diseño princesa con corte Recto.",
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido6.jpg"
     ]
@@ -94,12 +75,9 @@
     "slug": "modelo-novia-07",
     "nombre": "Modelo Novia 7",
     "categoria": "novias",
+    "estilo": "Corte Sirena",
     "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido7.jpg"
     ]
@@ -109,12 +87,9 @@
     "slug": "modelo-novia-08",
     "nombre": "Modelo Novia 8",
     "categoria": "novias",
+    "estilo": "Corte Recto",
     "descripcion": "Diseño princesa con escote corazón.",
-    "tallas": [
-      "38",
-      "40",
-      "42"
-    ],
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido8.jpg"
     ]
@@ -124,12 +99,9 @@
     "slug": "modelo-novia-09",
     "nombre": "Modelo Novia 9",
     "categoria": "novias",
-    "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
+    "estilo": "Corte A",
+    "descripcion": "Vestido elegante de corte A.",
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido9.jpg"
     ]
@@ -139,12 +111,9 @@
     "slug": "modelo-novia-10",
     "nombre": "Modelo Novia 10",
     "categoria": "novias",
+    "estilo": "Corte Princesa",
     "descripcion": "Diseño princesa con escote corazón.",
-    "tallas": [
-      "38",
-      "40",
-      "42"
-    ],
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido10.jpg"
     ]
@@ -154,12 +123,9 @@
     "slug": "modelo-novia-11",
     "nombre": "Modelo Novia 11",
     "categoria": "novias",
+    "estilo": "Corte Recto",
     "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
+   
     "imagenes": [
       "/imagenes/productos/novias/vestido11.jpg"
     ]
@@ -169,12 +135,9 @@
     "slug": "modelo-novia-12",
     "nombre": "Modelo Novia 12",
     "categoria": "novias",
-    "descripcion": "Diseño princesa con escote corazón.",
-    "tallas": [
-      "38",
-      "40",
-      "42"
-    ],
+    "estilo": "Corte A",
+    "descripcion": "Diseño princesa con corte A.",
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido12.jpg"
     ]
@@ -184,12 +147,9 @@
     "slug": "modelo-novia-13",
     "nombre": "Modelo Novia 13",
     "categoria": "novias",
+    "estilo": "Corte Princesa",
     "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido13.jpg"
     ]
@@ -199,12 +159,9 @@
     "slug": "modelo-novia-14",
     "nombre": "Modelo Novia 14",
     "categoria": "novias",
+    "estilo": "Corte Sirena",
     "descripcion": "Diseño princesa con escote corazón.",
-    "tallas": [
-      "38",
-      "40",
-      "42"
-    ],
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido14.jpg"
     ]
@@ -214,12 +171,9 @@
     "slug": "modelo-novia-15",
     "nombre": "Modelo Novia 15",
     "categoria": "novias",
-    "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
+    "estilo": "Corte A",
+    "descripcion": "Vestido elegante de corte A.",
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido15.jpg"
     ]
@@ -229,12 +183,9 @@
     "slug": "modelo-novia-16",
     "nombre": "Modelo Novia 16",
     "categoria": "novias",
-    "descripcion": "Diseño princesa con escote corazón.",
-    "tallas": [
-      "38",
-      "40",
-      "42"
-    ],
+    "estilo": "Corte Sirena",
+    "descripcion": "Diseño Sirena con escote corazón.",
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido16.jpg"
     ]
@@ -244,12 +195,9 @@
     "slug": "modelo-novia-17",
     "nombre": "Modelo Novia 17",
     "categoria": "novias",
+    "estilo": "Corte Sirena",
     "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido17.jpg"
     ]
@@ -259,12 +207,9 @@
     "slug": "modelo-novia-18",
     "nombre": "Modelo Novia 18",
     "categoria": "novias",
-    "descripcion": "Diseño princesa con escote corazón.",
-    "tallas": [
-      "38",
-      "40",
-      "42"
-    ],
+    "estilo": "Corte Recto",
+    "descripcion": "Diseño Corte Recto con escote corazón.",
+   
     "imagenes": [
       "/imagenes/productos/novias/vestido18.jpg"
     ]
@@ -274,12 +219,9 @@
     "slug": "modelo-novia-19",
     "nombre": "Modelo Novia 19",
     "categoria": "novias",
+    "estilo": "Corte Sirena",
     "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido19.jpg"
     ]
@@ -289,12 +231,9 @@
     "slug": "modelo-novia-20",
     "nombre": "Modelo Novia 20",
     "categoria": "novias",
+    "estilo": "Corte Princesa",
     "descripcion": "Diseño princesa con escote corazón.",
-    "tallas": [
-      "38",
-      "40",
-      "42"
-    ],
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido20.jpg"
     ]
@@ -304,12 +243,9 @@
     "slug": "modelo-novia-21",
     "nombre": "Modelo Novia 21",
     "categoria": "novias",
-    "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
+    "estilo": "Corte A",
+    "descripcion": "Vestido elegante de corte A.",
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido21.jpg"
     ]
@@ -319,12 +255,9 @@
     "slug": "modelo-novia-22",
     "nombre": "Modelo Novia 22",
     "categoria": "novias",
+    "estilo": "Corte Princesa",
     "descripcion": "Diseño princesa con escote corazón.",
-    "tallas": [
-      "38",
-      "40",
-      "42"
-    ],
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido22.jpg"
     ]
@@ -334,12 +267,9 @@
     "slug": "modelo-novia-23",
     "nombre": "Modelo Novia 23",
     "categoria": "novias",
+    "estilo": "Corte Sirena",
     "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido23.jpg"
     ]
@@ -349,12 +279,9 @@
     "slug": "modelo-novia-24",
     "nombre": "Modelo Novia 24",
     "categoria": "novias",
+    "estilo": "Corte Princesa",
     "descripcion": "Diseño princesa con escote corazón.",
-    "tallas": [
-      "38",
-      "40",
-      "42"
-    ],
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido24.jpg"
     ]
@@ -364,12 +291,9 @@
     "slug": "modelo-novia-25",
     "nombre": "Modelo Novia 25",
     "categoria": "novias",
-    "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
+    "estilo": "Corte A",
+    "descripcion": "Vestido elegante de corte A.",
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido25.jpg"
     ]
@@ -379,12 +303,9 @@
     "slug": "modelo-novia-26",
     "nombre": "Modelo Novia 26",
     "categoria": "novias",
-    "descripcion": "Diseño princesa con escote corazón.",
-    "tallas": [
-      "38",
-      "40",
-      "42"
-    ],
+    "estilo": "Corte Recto",
+    "descripcion": "Diseño Recto con escote corazón.",
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido26.jpg"
     ]
@@ -394,12 +315,9 @@
     "slug": "modelo-novia-27",
     "nombre": "Modelo Novia 27",
     "categoria": "novias",
+    "estilo": "Corte Sirena",
     "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido27.jpg"
     ]
@@ -409,12 +327,9 @@
     "slug": "modelo-novia-28",
     "nombre": "Modelo Novia 28",
     "categoria": "novias",
-    "descripcion": "Diseño princesa con escote corazón.",
-    "tallas": [
-      "38",
-      "40",
-      "42"
-    ],
+    "estilo": "Corte Recto",
+    "descripcion": "Diseño Recto con escote corazón.",
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido28.jpg"
     ]
@@ -424,12 +339,9 @@
     "slug": "modelo-novia-29",
     "nombre": "Modelo Novia 29",
     "categoria": "novias",
-    "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
+    "estilo": "Corte Princesa",
+    "descripcion": "Vestido elegante de corte Princesa.",
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido29.jpg"
     ]
@@ -439,12 +351,9 @@
     "slug": "modelo-novia-30",
     "nombre": "Modelo Novia 30",
     "categoria": "novias",
-    "descripcion": "Diseño princesa con escote corazón.",
-    "tallas": [
-      "38",
-      "40",
-      "42"
-    ],
+    "estilo": "Corte A",
+    "descripcion": "Diseño corte A con escote corazón.",
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido30.jpg"
     ]
@@ -454,14 +363,291 @@
     "slug": "modelo-novia-31",
     "nombre": "Modelo Novia 31",
     "categoria": "novias",
+    "estilo": "Corte Sirena",
     "descripcion": "Vestido elegante de corte sirena.",
-    "tallas": [
-      "36",
-      "38",
-      "40"
-    ],
+    
     "imagenes": [
       "/imagenes/productos/novias/vestido31.jpg"
     ]
-  }
+  },
+  {
+  "id": 100,
+  "slug": "vestido-invitada-01",
+  "nombre": "Vestido Invitada 1",
+  "categoria": "invitada",
+  "descripcion": "Vestido largo fucsia elegante.",
+  "tallas": ["S", "M", "L"],
+  "imagenes": ["/imagenes/productos/invitada/vestido1.jpg"],
+  "precio": 120
+},
+{
+  "id": 101,
+  "slug": "vestido-invitada-02",
+  "nombre": "Vestido Invitada 2",
+  "categoria": "invitada",
+  "descripcion": "Vestido largo verde estilo gasa.",
+  "tallas": ["S", "M", "L"],
+  "imagenes": ["/imagenes/productos/invitada/vestido2.jpg"],
+  "precio": 145
+},
+{
+  "id": 102,
+  "slug": "vestido-invitada-03",
+  "nombre": "Vestido Invitada 3",
+  "categoria": "invitada",
+  "descripcion": "Vestido largo de gasa con escote asimétrico.",
+  "tallas": ["S", "M", "L"],
+  "imagenes": ["/imagenes/productos/invitada/vestido3.jpg"],
+  "precio": 90
+},
+{
+  "id": 103,
+  "slug": "vestido-invitada-04",
+  "nombre": "Vestido Invitada 4",
+  "categoria": "invitada",
+  "descripcion": "Vestido largo de gasa con escote asimétrico.",
+  "tallas": ["S", "M", "L"],
+  "imagenes": ["/imagenes/productos/invitada/vestido4.jpg"],
+  "precio": 115
+},
+{
+  "id": 104,
+  "slug": "vestido-invitada-05",
+  "nombre": "Vestido Invitada 5",
+  "categoria": "invitada",
+  "descripcion": "Vestido largo de gasa con escote asimétrico.",
+  "tallas": ["S", "M", "L"],
+  "imagenes": ["/imagenes/productos/invitada/vestido5.jpg"],
+  "precio": 100
+},
+{
+  "id": 105,
+  "slug": "vestido-invitada-06",
+  "nombre": "Vestido Invitada 6",
+  "categoria": "invitada",
+  "descripcion": "Vestido largo de gasa con escote asimétrico.",
+  "tallas": ["S", "M", "L"],
+  "imagenes": ["/imagenes/productos/invitada/vestido6.jpg"],
+  "precio": 85
+},
+{
+  "id": 106,
+  "slug": "vestido-invitada-07",
+  "nombre": "Vestido Invitada 7",
+  "categoria": "invitada",
+  "descripcion": "Vestido largo de gasa con escote asimétrico.",
+  "tallas": ["S", "M", "L"],
+  "imagenes": ["/imagenes/productos/invitada/vestido7.jpg"],
+  "precio": 125
+},
+{
+  "id": 107,
+  "slug": "vestido-invitada-08",
+  "nombre": "Vestido Invitada 8",
+  "categoria": "invitada",
+  "descripcion": "Vestido largo de gasa con escote asimétrico.",
+  "tallas": ["S", "M", "L"],
+  "imagenes": ["/imagenes/productos/invitada/vestido8.jpg"]
+},
+{
+  "id": 108,
+  "slug": "vestido-invitada-09",
+  "nombre": "Vestido Invitada 9",
+  "categoria": "invitada",
+  "descripcion": "Vestido largo de gasa con escote asimétrico.",
+  "tallas": ["S", "M", "L"],
+  "imagenes": ["/imagenes/productos/invitada/vestido9.jpg"],
+  "precio": 150
+},
+{
+  "id": 109,
+  "slug": "vestido-invitada-10",
+  "nombre": "Vestido Invitada 10",
+  "categoria": "invitada",
+  "descripcion": "Vestido largo de gasa con escote asimétrico.",
+  "tallas": ["S", "M", "L"],
+  "imagenes": ["/imagenes/productos/invitada/vestido10.jpg"],
+  "precio": 130
+},
+{
+  "id": 200,
+  "slug": "tocado-floral-01",
+  "nombre": "Tocado 1",
+  "categoria": "tocados",
+  "descripcion": "Tocado fino con pedrería.",
+  "imagenes": ["/imagenes/productos/tocados/tocado1.jpg"],
+  "precio": 120
+},
+{
+  "id": 201,
+  "slug": "tocado-floral-02",
+  "nombre": "Tocado Floral 2",
+  "categoria": "tocados",
+  "descripcion": "Sombrero con flor y velo.",
+  "imagenes": ["/imagenes/productos/tocados/tocado2.jpg"],
+  "precio": 100
+},
+{
+  "id": 202,
+  "slug": "tocado-floral-03",
+  "nombre": "Tocado Floral 3",
+  "categoria": "tocados",
+  "descripcion": "Tocado con flores secas y velo fino.",
+  "imagenes": ["/imagenes/productos/tocados/tocado3.jpg"],
+  "precio": 90
+},
+{
+  "id": 203,
+  "slug": "tocado-floral-04",
+  "nombre": "Tocado Floral 4",
+  "categoria": "tocados",
+  "descripcion": "Tocado con flores secas y velo fino.",
+  "imagenes": ["/imagenes/productos/tocados/tocado4.jpg"],
+  "precio": 55
+},
+{
+  "id": 204,
+  "slug": "tocado-floral-05",
+  "nombre": "Tocado Floral 5",
+  "categoria": "tocados",
+  "descripcion": "Tocado con flores secas y velo fino.",
+  "imagenes": ["/imagenes/productos/tocados/tocado5.jpg"],
+  "precio": 27
+},
+{
+  "id": 205,
+  "slug": "tocado-floral-06",
+  "nombre": "Tocado Floral 6",
+  "categoria": "tocados",
+  "descripcion": "Tocado con flores secas y velo fino.",
+  "imagenes": ["/imagenes/productos/tocados/tocado6.jpg"],
+  "precio": 77
+},
+{
+  "id": 206,
+  "slug": "tocado-floral-07",
+  "nombre": "Tocado Floral 7",
+  "categoria": "tocados",
+  "descripcion": "Tocado con flores secas y velo fino.",
+  "imagenes": ["/imagenes/productos/tocados/tocado7.jpg"],
+  "precio": 43
+},
+{
+  "id": 207,
+  "slug": "tocado-floral-08",
+  "nombre": "Tocado Floral 8",
+  "categoria": "tocados",
+  "descripcion": "Tocado con flores secas y velo fino.",
+  "imagenes": ["/imagenes/productos/tocados/tocado8.jpg"],
+  "precio": 39.99
+},
+{
+  "id": 208,
+  "slug": "tocado-floral-09",
+  "nombre": "Tocado Floral 9",
+  "categoria": "tocados",
+  "descripcion": "Tocado con flores secas y velo fino.",
+  "imagenes": ["/imagenes/productos/tocados/tocado9.jpg"],
+  "precio": 52.99
+},
+{
+  "id": 209,
+  "slug": "tocado-floral-10",
+  "nombre": "Tocado Floral 10",
+  "categoria": "tocados",
+  "descripcion": "Tocado con flores secas y velo fino.",
+  "imagenes": ["/imagenes/productos/tocados/tocado5.jpg"],
+  "precio": 29.99
+},
+{
+  "id": 300,
+  "slug": "bolso-1",
+  "nombre": "Clutch de Perlas",
+  "categoria": "bolsos",
+  "descripcion": "Bolso precioso baratito",
+  "imagenes": ["/imagenes/productos/bolsos/bolso1.jpg"],
+  "precio": 39.99
+},
+{
+  "id": 301,
+  "slug": "bolso-2",
+  "nombre": "Clutch de Perlas",
+  "categoria": "bolsos",
+  "descripcion": "Bolso precioso baratito",
+  "imagenes": ["/imagenes/productos/bolsos/bolso2.jpg"],
+  "precio": 29.99
+},
+{
+  "id": 302,
+  "slug": "bolso-3",
+  "nombre": "Clutch de Perlas",
+  "categoria": "bolsos",
+  "descripcion": "Bolso precioso baratito",
+  "imagenes": ["/imagenes/productos/bolsos/bolso3.jpg"],
+  "precio": 19.99
+},
+{
+  "id": 303,
+  "slug": "bolso-clutch-perlas",
+  "nombre": "Clutch de Perlas",
+  "categoria": "bolsos",
+  "descripcion": "Bolso precioso baratito",
+  "imagenes": ["/imagenes/productos/bolsos/bolso4.jpg"],
+  "precio": 34.99
+},
+{
+  "id": 304,
+  "slug": "bolso-clutch-perlas",
+  "nombre": "Clutch de Perlas",
+  "categoria": "bolsos",
+  "descripcion": "Bolso precioso baratito",
+  "imagenes": ["/imagenes/productos/bolsos/bolso5.jpg"],
+  "precio": 14.99
+},
+{
+  "id": 400,
+  "slug": "pendiente-1",
+  "nombre": "Pendiente 1",
+  "categoria": "pendientes",
+  "descripcion": "Pendiente precioso baratito",
+  "imagenes": ["/imagenes/productos/pendientes/pendiente1.jpg"],
+  "precio": 14.99
+},
+{
+  "id": 401,
+  "slug": "pendiente-2",
+  "nombre": "Pendiente 2",
+  "categoria": "pendientes",
+  "descripcion": "Pendiente precioso baratito",
+  "imagenes": ["/imagenes/productos/pendientes/pendiente2.jpg"],
+  "precio": 8.99
+},
+{
+  "id": 402,
+  "slug": "pendiente-3",
+  "nombre": "Pendiente 3",
+  "categoria": "pendientes",
+  "descripcion": "Pendiente precioso baratito",
+  "imagenes": ["/imagenes/productos/pendientes/pendiente3.jpg"],
+  "precio": 9.99
+},
+{
+  "id": 403,
+  "slug": "pendiente-4",
+  "nombre": "Pendiente 4",
+  "categoria": "pendientes",
+  "descripcion": "Pendiente precioso baratito",
+  "imagenes": ["/imagenes/productos/pendientes/pendiente4.jpg"],
+  "precio": 12.99
+},
+{
+  "id": 404,
+  "slug": "pendiente-5",
+  "nombre": "Pendiente 5",
+  "categoria": "pendientes",
+  "descripcion": "Pendiente precioso baratito",
+  "imagenes": ["/imagenes/productos/pendientes/pendiente5.jpg"],
+  "precio": 12.99
+}
+
 ]

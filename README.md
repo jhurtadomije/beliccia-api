@@ -1,150 +1,162 @@
-Beliccia API
+# Beliccia API
 
-API RESTful construida con Node.js y Express para gestionar el catálogo de productos y colecciones de Beliccia Dresscode. Esta API ofrece endpoints para listar, crear, actualizar y eliminar colecciones y productos, además de permitir paginación y filtrado.
+API RESTful construida con Node.js y Express para gestionar el catálogo de productos y colecciones de Beliccia Dresscode. Esta API ofrece endpoints para listar, crear, actualizar y eliminar colecciones y productos, y permite paginación, filtrado y lógica de venta online según precio.
 
-⚙️ Tecnologías
+---
 
-Node.js
+## ⚙️ Tecnologías
 
-Express
+* **Backend**: Node.js, Express
+* **Base de datos**: JSON plano (opcional migrar a MongoDB u otra)
+* **Variables de entorno**: `dotenv`
+* **Desarrollo**: `nodemon`
+* **CORS**: configuración de orígenes permitidos
 
-MongoDB (opcional, o cambia por tu base de datos preferida)
+---
 
-dotenv para gestión de variables de entorno
+## 🚀 Instalación
 
-nodemon (en desarrollo)
+1. Clonar el repositorio:
 
-🚀 Instalación
+   ```bash
+   git clone https://github.com/tu-usuario/beliccia-api.git
+   cd beliccia-api
+   ```
+2. Instalar dependencias:
 
-Clonar el repositorio:
+   ```bash
+   npm install
+   ```
+3. Crear un fichero `.env` en la raíz con:
 
-git clone https://github.com/tu-usuario/beliccia-api.git
-cd beliccia-api
+   ```env
+   PORT=3000
+   # Si usas MongoDB:
+   MONGODB_URI=mongodb://<usuario>:<password>@<host>:<puerto>/<base_de_datos>
+   ```
+4. Levantar en desarrollo:
 
-Instalar dependencias:
+   ```bash
+   npm run dev
+   ```
 
-npm install
+La API escuchará en [http://localhost:3000/](http://localhost:3000/)
 
-Crear un fichero .env en la raíz con las siguientes variables (ajusta según tu config):
+---
 
-PORT=3000
-MONGODB_URI=mongodb://<usuario>:<password>@<host>:<puerto>/<base_de_datos>
+## 🛠️ Estructura del Proyecto
 
-Levantar en entorno de desarrollo:
-
-npm run dev
-
-La API escuchará en http://localhost:3000/
-
-🛠️ Estructura del Proyecto
-
+```
 beliccia-api/
+├── public/                # Assets estáticos (imágenes, videos)
+│   ├── imagenes/
+│   └── videos/
+├── data/                  # JSON de productos
+│   └── productos.json
 ├── src/
-│   ├── controllers/      # Lógica de endpoints
-│   ├── models/           # Definición de esquemas (Mongoose o tu ORM)
-│   ├── routes/           # Definición de rutas
-│   ├── utils/            # Funciones auxiliares
-│   ├── server.js         # Punto de entrada de la aplicación
-│   └── app.js            # Configuración de Express
-├── .env                  # Variables de entorno
+│   ├── routes/            # Definición de rutas
+│   │   ├── colecciones.js
+│   │   └── productos.js
+│   ├── app.js             # Configuración de Express
+│   └── server.js          # Punto de entrada
+├── .env                   # Variables de entorno
 ├── package.json
-├── README.md
-└── .gitignore
+└── README.md
+```
 
-📚 Endpoints Principales
+---
 
-Método
+## 📚 Endpoints Principales
 
-Ruta
+### Colecciones
 
-Descripción
+| Método | Ruta                             | Descripción                                   |
+| ------ | -------------------------------- | --------------------------------------------- |
+| GET    | `/api/v1/colecciones`            | Listar todas las colecciones                  |
+| GET    | `/api/v1/colecciones/:categoria` | Obtener productos de una colección específica |
 
-GET
+### Productos
 
-/api/v1/collections
+| Método | Ruta                           | Descripción                               |
+| ------ | ------------------------------ | ----------------------------------------- |
+| GET    | `/api/v1/productos`            | Listar productos con paginación y filtros |
+| GET    | `/api/v1/productos/:id`        | Obtener un producto por su ID             |
+| GET    | `/api/v1/productos/slug/:slug` | Obtener un producto por su slug           |
 
-Obtener todas las colecciones
+\*\*Query params en \*\*\`\`:
 
-GET
+* `?cat=<categoria>`: filtra por categoría (novias, invitada, complementos).
+* `?pagina=<n>`: número de página (entero ≥1).
+* `?limite=<m>`: elementos por página (entero ≥1).
+* `?slug=<slug>`: filtra por slug.
+* `?talla=<talla>`: filtra productos que incluyen esa talla.
+* `?estilo=<estilo>`: filtra novias por estilo (`Corte A`, `Corte Recto`, `Corte Sirena`, `Corte Princesa`).
 
-/api/v1/collections/:id
+**Respuesta**:
 
-Obtener una colección por ID
+```json
+{
+  "total": 45,
+  "pagina": 1,
+  "limite": 10,
+  "resultados": [
+    {
+      "id": 1,
+      "slug": "modelo-novia-01",
+      "nombre": "Modelo Novia 1",
+      "categoria": "novias",
+      "estilo": "Corte Sirena",
+      "descripcion": "Vestido elegante de corte sirena.",
+      "imagenes": ["/imagenes/productos/novias/vestido1.jpg"],
+      "precio": 180,
+      "ventaOnline": true,
+      "consultaUrl": null
+    },
+    // … más productos
+  ]
+}
+```
 
-POST
+---
 
-/api/v1/collections
+## 💰 Lógica de Venta Online
 
-Crear una nueva colección
+* Cada producto tiene un campo numérico `precio` (en euros).
+* La API añade un campo booleano `ventaOnline`:
 
-PUT
+  * `true` si `precio <= 200` → el frontend muestra “Añadir al carrito”.
+  * `false` si `precio > 200` → el frontend debe mostrar “Solicitar información” y usar `consultaUrl`.
+* Campo `consultaUrl` con la ruta al formulario de contacto (ej: `/contacto`).
 
-/api/v1/collections/:id
+---
 
-Actualizar una colección existente
+## ☁️ Despliegue en Railway
 
-DELETE
+1. Conecta tu repo a Railway.
+2. Configura variables de entorno en la sección Settings:
 
-/api/v1/collections/:id
+   * `PORT=3000`
+   * `MONGODB_URI` si aplica.
+3. Railway detectará el `package.json` y ejecutará `npm start`.
+4. La API estará disponible en una URL como:
 
-Eliminar una colección
+   ```
+   ```
 
-GET
+[https://beliccia-api-xxxxx.up.railway.app/api/v1/colecciones](https://beliccia-api-xxxxx.up.railway.app/api/v1/colecciones)
 
-/api/v1/products
+```
 
-Obtener todos los productos (con paginación/filter)
+---
 
-GET
+## 📄 Licencia
 
-/api/v1/products/:id
+Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
-Obtener un producto por ID
+---
 
-POST
+## 🤝 Contribuciones
 
-/api/v1/products
+¡Las contribuciones son bienvenidas! Abre un Issue o un Pull Request para mejorar la API.
 
-Crear un nuevo producto
-
-PUT
-
-/api/v1/products/:id
-
-Actualizar un producto existente
-
-DELETE
-
-/api/v1/products/:id
-
-Eliminar un producto
-
-Para más rutas o parámetros de consulta, consulta el código en src/routes.
-
-⚙️ Despliegue en Railway
-
-Conecta tu repo a Railway:
-
-En https://railway.app, crea un nuevo proyecto y vincúlalo a tu repositorio de GitHub.
-
-Selecciona la rama main para desplegar.
-
-Configura variables de entorno en Railway (Settings → Variables):
-
-PORT 3000
-MONGODB_URI mongodb://<usuario>:<password>@<host>:<puerto>/<base_de_datos>
-
-Railway detectará tu package.json y ejecutará npm start tras cada push a main.
-
-Accede a tu API en la URL proporcionada por Railway, por ejemplo:
-
-https://beliccia-api-xxxxx.up.railway.app/api/v1/collections
-
-📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
-
-🤝 Contribuciones
-
-¡Las contribuciones son bienvenidas! Abre un Issue o un Pull Request para mejorar este proyecto.
-
+```
