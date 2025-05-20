@@ -377,7 +377,7 @@
   "categoria": "invitada",
   "descripcion": "Vestido largo fucsia elegante.",
   "tallas": ["S", "M", "L"],
-  "imagenes": ["/imagenes/productos/invitada/vestido1.jpg"],
+  "imagenes": ["/imagenes/productos/invitada/vestido1.jpeg"],
   "precio": 120
 },
 {
@@ -387,7 +387,7 @@
   "categoria": "invitada",
   "descripcion": "Vestido largo verde estilo gasa.",
   "tallas": ["S", "M", "L"],
-  "imagenes": ["/imagenes/productos/invitada/vestido2.jpg"],
+  "imagenes": ["/imagenes/productos/invitada/vestido2.jpeg"],
   "precio": 145
 },
 {
@@ -397,7 +397,7 @@
   "categoria": "invitada",
   "descripcion": "Vestido largo de gasa con escote asimétrico.",
   "tallas": ["S", "M", "L"],
-  "imagenes": ["/imagenes/productos/invitada/vestido3.jpg"],
+  "imagenes": ["/imagenes/productos/invitada/vestido3.jpeg"],
   "precio": 90
 },
 {
@@ -407,7 +407,7 @@
   "categoria": "invitada",
   "descripcion": "Vestido largo de gasa con escote asimétrico.",
   "tallas": ["S", "M", "L"],
-  "imagenes": ["/imagenes/productos/invitada/vestido4.jpg"],
+  "imagenes": ["/imagenes/productos/invitada/vestido4.jpeg"],
   "precio": 115
 },
 {
@@ -417,7 +417,7 @@
   "categoria": "invitada",
   "descripcion": "Vestido largo de gasa con escote asimétrico.",
   "tallas": ["S", "M", "L"],
-  "imagenes": ["/imagenes/productos/invitada/vestido5.jpg"],
+  "imagenes": ["/imagenes/productos/invitada/vestido5.jpeg"],
   "precio": 100
 },
 {
@@ -427,7 +427,7 @@
   "categoria": "invitada",
   "descripcion": "Vestido largo de gasa con escote asimétrico.",
   "tallas": ["S", "M", "L"],
-  "imagenes": ["/imagenes/productos/invitada/vestido6.jpg"],
+  "imagenes": ["/imagenes/productos/invitada/vestido6.jpeg"],
   "precio": 85
 },
 {
@@ -437,7 +437,7 @@
   "categoria": "invitada",
   "descripcion": "Vestido largo de gasa con escote asimétrico.",
   "tallas": ["S", "M", "L"],
-  "imagenes": ["/imagenes/productos/invitada/vestido7.jpg"],
+  "imagenes": ["/imagenes/productos/invitada/vestido7.jpeg"],
   "precio": 125
 },
 {
@@ -447,7 +447,7 @@
   "categoria": "invitada",
   "descripcion": "Vestido largo de gasa con escote asimétrico.",
   "tallas": ["S", "M", "L"],
-  "imagenes": ["/imagenes/productos/invitada/vestido8.jpg"]
+  "imagenes": ["/imagenes/productos/invitada/vestido8.jpeg"]
 },
 {
   "id": 108,
@@ -456,7 +456,7 @@
   "categoria": "invitada",
   "descripcion": "Vestido largo de gasa con escote asimétrico.",
   "tallas": ["S", "M", "L"],
-  "imagenes": ["/imagenes/productos/invitada/vestido9.jpg"],
+  "imagenes": ["/imagenes/productos/invitada/vestido9.jpeg"],
   "precio": 150
 },
 {
@@ -466,7 +466,7 @@
   "categoria": "invitada",
   "descripcion": "Vestido largo de gasa con escote asimétrico.",
   "tallas": ["S", "M", "L"],
-  "imagenes": ["/imagenes/productos/invitada/vestido10.jpg"],
+  "imagenes": ["/imagenes/productos/invitada/vestido10.jpeg"],
   "precio": 130
 },
 {
@@ -475,7 +475,7 @@
   "nombre": "Tocado 1",
   "categoria": "tocados",
   "descripcion": "Tocado fino con pedrería.",
-  "imagenes": ["/imagenes/productos/tocados/tocado1.jpg"],
+  "imagenes": ["/imagenes/productos/tocados/tocado1.jpeg"],
   "precio": 120
 },
 {
@@ -484,7 +484,7 @@
   "nombre": "Tocado Floral 2",
   "categoria": "tocados",
   "descripcion": "Sombrero con flor y velo.",
-  "imagenes": ["/imagenes/productos/tocados/tocado2.jpg"],
+  "imagenes": ["/imagenes/productos/tocados/tocado2.jpeg"],
   "precio": 100
 },
 {
@@ -493,7 +493,7 @@
   "nombre": "Tocado Floral 3",
   "categoria": "tocados",
   "descripcion": "Tocado con flores secas y velo fino.",
-  "imagenes": ["/imagenes/productos/tocados/tocado3.jpg"],
+  "imagenes": ["/imagenes/productos/tocados/tocado3.jpeg"],
   "precio": 90
 },
 {
@@ -502,7 +502,7 @@
   "nombre": "Tocado Floral 4",
   "categoria": "tocados",
   "descripcion": "Tocado con flores secas y velo fino.",
-  "imagenes": ["/imagenes/productos/tocados/tocado4.jpg"],
+  "imagenes": ["/imagenes/productos/tocados/tocado4.jpeg"],
   "precio": 55
 },
 {
@@ -511,7 +511,7 @@
   "nombre": "Tocado Floral 5",
   "categoria": "tocados",
   "descripcion": "Tocado con flores secas y velo fino.",
-  "imagenes": ["/imagenes/productos/tocados/tocado5.jpg"],
+  "imagenes": ["/imagenes/productos/tocados/tocado5.jpeg"],
   "precio": 27
 },
 {
@@ -520,7 +520,7 @@
   "nombre": "Tocado Floral 6",
   "categoria": "tocados",
   "descripcion": "Tocado con flores secas y velo fino.",
-  "imagenes": ["/imagenes/productos/tocados/tocado6.jpg"],
+  "imagenes": ["/imagenes/productos/tocados/tocado6.jpeg"],
   "precio": 77
 },
 {
@@ -529,7 +529,7 @@
   "nombre": "Tocado Floral 7",
   "categoria": "tocados",
   "descripcion": "Tocado con flores secas y velo fino.",
-  "imagenes": ["/imagenes/productos/tocados/tocado7.jpg"],
+  "imagenes": ["/imagenes/productos/tocados/tocado7.jpeg"],
   "precio": 43
 },
 {
@@ -538,7 +538,7 @@
   "nombre": "Tocado Floral 8",
   "categoria": "tocados",
   "descripcion": "Tocado con flores secas y velo fino.",
-  "imagenes": ["/imagenes/productos/tocados/tocado8.jpg"],
+  "imagenes": ["/imagenes/productos/tocados/tocado8.jpeg"],
   "precio": 39.99
 },
 {
@@ -547,7 +547,7 @@
   "nombre": "Tocado Floral 9",
   "categoria": "tocados",
   "descripcion": "Tocado con flores secas y velo fino.",
-  "imagenes": ["/imagenes/productos/tocados/tocado9.jpg"],
+  "imagenes": ["/imagenes/productos/tocados/tocado9.jpeg"],
   "precio": 52.99
 },
 {
@@ -556,7 +556,7 @@
   "nombre": "Tocado Floral 10",
   "categoria": "tocados",
   "descripcion": "Tocado con flores secas y velo fino.",
-  "imagenes": ["/imagenes/productos/tocados/tocado5.jpg"],
+  "imagenes": ["/imagenes/productos/tocados/tocado5.jpeg"],
   "precio": 29.99
 },
 {
@@ -565,7 +565,7 @@
   "nombre": "Clutch de Perlas",
   "categoria": "bolsos",
   "descripcion": "Bolso precioso baratito",
-  "imagenes": ["/imagenes/productos/bolsos/bolso1.jpg"],
+  "imagenes": ["/imagenes/productos/bolsos/bolso1.jpeg"],
   "precio": 39.99
 },
 {
@@ -574,7 +574,7 @@
   "nombre": "Clutch de Perlas",
   "categoria": "bolsos",
   "descripcion": "Bolso precioso baratito",
-  "imagenes": ["/imagenes/productos/bolsos/bolso2.jpg"],
+  "imagenes": ["/imagenes/productos/bolsos/bolso2.jpeg"],
   "precio": 29.99
 },
 {
@@ -610,7 +610,7 @@
   "nombre": "Pendiente 1",
   "categoria": "pendientes",
   "descripcion": "Pendiente precioso baratito",
-  "imagenes": ["/imagenes/productos/pendientes/pendiente1.jpg"],
+  "imagenes": ["/imagenes/productos/pendientes/pendiente1.jpeg"],
   "precio": 14.99
 },
 {
@@ -619,7 +619,7 @@
   "nombre": "Pendiente 2",
   "categoria": "pendientes",
   "descripcion": "Pendiente precioso baratito",
-  "imagenes": ["/imagenes/productos/pendientes/pendiente2.jpg"],
+  "imagenes": ["/imagenes/productos/pendientes/pendiente2.jpeg"],
   "precio": 8.99
 },
 {
@@ -628,7 +628,7 @@
   "nombre": "Pendiente 3",
   "categoria": "pendientes",
   "descripcion": "Pendiente precioso baratito",
-  "imagenes": ["/imagenes/productos/pendientes/pendiente3.jpg"],
+  "imagenes": ["/imagenes/productos/pendientes/pendiente3.jpeg"],
   "precio": 9.99
 },
 {
@@ -637,7 +637,7 @@
   "nombre": "Pendiente 4",
   "categoria": "pendientes",
   "descripcion": "Pendiente precioso baratito",
-  "imagenes": ["/imagenes/productos/pendientes/pendiente4.jpg"],
+  "imagenes": ["/imagenes/productos/pendientes/pendiente4.jpeg"],
   "precio": 12.99
 },
 {
@@ -646,7 +646,7 @@
   "nombre": "Pendiente 5",
   "categoria": "pendientes",
   "descripcion": "Pendiente precioso baratito",
-  "imagenes": ["/imagenes/productos/pendientes/pendiente5.jpg"],
+  "imagenes": ["/imagenes/productos/pendientes/pendiente5.jpeg"],
   "precio": 12.99
 }
 

@@ -8,58 +8,39 @@ const productos   = require('./routes/productos');
 const app  = express();
 const PORT = process.env.PORT || 3000;
 
-// Permitir peticiones CORS desde tus frontends
-app.use(cors({
-  origin: [
-    'http://localhost:5173',
-    'http://localhost:5500',
-    'https://beliccia-dresscode.vercel.app',
-    'https://beliccia-dresscode-<preview>.vercel.app'
-  ],
-  credentials: true
-}));
+// Habilitar CORS globalmente para todos los orígenes
+app.use(cors({ origin: '*', credentials: true }));
 
-app.use(cors({
-  origin: '*',
-  credentials: true
-}));
-
-// Parseo JSON (para futuros endpoints POST, si los tuvieras)
+// Parseo de JSON
 app.use(express.json());
 
-// ————————————————————————————————
-// Servir ficheros estáticos
-// ————————————————————————————————
-// Carpeta raiz del proyecto
-//   beliccia-api-express/
-//   ├── public/
-//   │   ├── imagenes/
-//   │   └── videos/
-//   └── src/
-//       └── server.js
-
-// Montamos /imagenes → public/imagenes
+// Servir ficheros estáticos con cabeceras CORS
 app.use(
   '/imagenes',
+  (req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    next();
+  },
   express.static(path.join(__dirname, '..', 'public', 'imagenes'))
 );
 
-// Montamos /videos → public/videos
 app.use(
   '/videos',
+  (req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    next();
+  },
   express.static(path.join(__dirname, '..', 'public', 'videos'))
 );
 
-// ————————————————————————————————
 // Rutas de la API
-// ————————————————————————————————
 app.use('/api/v1/colecciones', colecciones);
 app.use('/api/v1/productos',   productos);
 
 // Ruta raíz de comprobación
 app.get('/', (req, res) => res.send('API Beliccia corriendo'));
 
-// Arrancar servidor
+// Iniciar servidor
 app.listen(PORT, () => {
   console.log(`API escuchando en puerto ${PORT}`);
 });
